@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ExamTest</string>
+    <string name="main_undo_snackBar_btn">Undo</string>
+    <string name="main_addlike_toast">+1 Vintage bicycle</string>
+    <string name="main_addtocart_btn">Add to cart</string>
+    <string name="main_addtocart_btn_selected">Added to cart</string>
+    <string name="main_addtocart_btn_selected_toast">Item already is in Cart</string>
+    <string name="main_bicycle_title">Vintage bicycle</string>
+    <string name="main_color_radiogroup_title">Color</string>
+    <string name="main_medium_btn">M</string>
+    <string name="main_small_btn">S</string>
+    <string name="main_large_btn">L</string>
+    <string name="main_xlarge_btn">XL</string>
+    <string name="main_description_title">Description</string>
+    <string name="main_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="main_measurements_title">Measurement</string>
+    <string name="main_measurements_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+</resources>

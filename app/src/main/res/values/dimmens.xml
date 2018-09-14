@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_scrollcontainer_paddingbottom">15dp</dimen>
+    <dimen name="main_bicycle_image_maxheight">250dp</dimen>
+    <dimen name="main_bicycle_title_textSize">28sp</dimen>
+    <dimen name="main_content_marginLeft">15dp</dimen>
+    <dimen name="main_content_marginRight">15dp</dimen>
+    <dimen name="main_content_marginTop">15dp</dimen>
+    <dimen name="main_header_title_textSize">16sp</dimen>
+    <dimen name="main_color_radio_separation">5dp</dimen>
+    <dimen name="main_size_btn_height">42dp</dimen>
+    <dimen name="main_size_btn_width">42dp</dimen>
+    <dimen name="main_size_btn_separation">20dp</dimen>
+    <dimen name="main_addtocart_btn_width">150dp</dimen>
+    <dimen name="main_addtocart_btn_height">50dp</dimen>
+    <dimen name="main_btn_textSize">16sp</dimen>
+    <dimen name="main_like_btn_width">25dp</dimen>
+    <dimen name="main_like_btn_height">25dp</dimen>
+</resources>

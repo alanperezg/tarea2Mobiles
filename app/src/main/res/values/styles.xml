@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="main_maincontainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white_color</item>
+    </style>
+    <style name="main_scrollcontainer">
+        <item name="android:paddingBottom">@dimen/main_scrollcontainer_paddingbottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="main_bycicle_image">
+        <item name="android:background">@drawable/border_bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:maxHeight">@dimen/main_bicycle_image_maxheight</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="main_bicycle_title">
+        <item name="android:textColor">@color/light_gray_color</item>
+        <item name="android:textSize">@dimen/main_bicycle_title_textSize</item>
+        <item name="android:layout_marginLeft">@dimen/main_content_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/main_content_marginTop</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="main_header_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_color</item>
+        <item name="android:textSize">@dimen/main_header_title_textSize</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">@dimen/main_content_marginTop</item>
+    </style>
+    <style name="main_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/light_gray_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">@dimen/main_content_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/main_content_marginRight</item>
+    </style>
+    <style name="main_color_radiogroup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="main_color_radiobutton">
+        <item name="android:layout_marginRight">@dimen/main_color_radio_separation</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="main_size_button">
+        <item name="android:layout_width">@dimen/main_size_btn_width</item>
+        <item name="android:layout_height">@dimen/main_size_btn_height</item>
+        <item name="android:background">@drawable/main_size_button</item>
+        <item name="android:layout_marginRight">@dimen/main_size_btn_separation</item>
+        <item name="android:layout_marginTop">@dimen/main_content_marginTop</item>
+        <item name="android:textColor">@color/dark_brown_color</item>
+        <item name="android:textSize">@dimen/main_btn_textSize</item>
+    </style>
+    <style name="main_addtocart_button">
+        <item name="android:layout_width">@dimen/main_addtocart_btn_width</item>
+        <item name="android:layout_height">@dimen/main_addtocart_btn_height</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">@dimen/main_content_marginTop</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:background">@color/dark_gray_color</item>
+        <item name="android:textSize">@dimen/main_btn_textSize</item>
+    </style>
+    <style name="main_like_button">
+        <item name="android:layout_width">@dimen/main_like_btn_width</item>
+        <item name="android:layout_height">@dimen/main_like_btn_height</item>
+        <item name="android:layout_marginTop">@dimen/main_content_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/main_content_marginRight</item>
+        <item name="android:background">@drawable/like_icon</item>
+    </style>
+</resources>

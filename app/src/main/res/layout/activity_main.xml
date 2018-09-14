@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_maincontainer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ActivityMain">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            style="@style/main_scrollcontainer">
+
+            <ImageView
+                android:id="@+id/main_imgview"
+                style="@style/main_bycicle_image"
+                android:src="@drawable/bicicleta"/>
+
+            <TextView
+                android:id="@+id/main_bicycle_title"
+                style="@style/main_bicycle_title"
+                android:layout_below="@id/main_imgview"
+                android:text="@string/main_bicycle_title" />
+
+            <ImageButton
+                android:id="@+id/main_like_btn"
+                style="@style/main_like_button"
+                android:layout_alignRight="@id/main_imgview"
+                android:layout_below="@id/main_imgview"/>
+
+            <TextView
+                android:id="@+id/main_color_radiogroup_title"
+                style="@style/main_header_title"
+                android:layout_alignStart="@id/main_bicycle_title"
+                android:layout_below="@id/main_bicycle_title"
+                android:text="@string/main_color_radiogroup_title" />
+
+            <RadioGroup
+                android:id="@+id/main_color_radiogroup"
+                style="@style/main_color_radiogroup"
+                android:layout_alignStart="@id/main_bicycle_title"
+                android:layout_below="@id/main_color_radiogroup_title">
+
+                <RadioButton
+                    android:id="@+id/main_colorgray_radio"
+                    style="@style/main_color_radiobutton"
+                    android:buttonTint="@color/light_gray_color" />
+
+                <RadioButton
+                    android:id="@+id/main_colorbrown_radio"
+                    style="@style/main_color_radiobutton"
+                    android:buttonTint="@color/dark_brown_color" />
+
+                <RadioButton
+                    android:id="@+id/main_colorpink_radio"
+                    style="@style/main_color_radiobutton"
+                    android:buttonTint="@color/pink_color" />
+
+                <RadioButton
+                    android:id="@+id/main_colorblack_radio"
+                    style="@style/main_color_radiobutton"
+                    android:buttonTint="@color/black_color" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/main_medium_btn"
+                style="@style/main_size_button"
+                android:layout_alignStart="@id/main_bicycle_title"
+                android:layout_below="@id/main_color_radiogroup"
+                android:text="@string/main_medium_btn" />
+
+            <Button
+                android:id="@+id/main_small_btn"
+                style="@style/main_size_button"
+                android:layout_below="@id/main_color_radiogroup"
+                android:layout_toRightOf="@id/main_medium_btn"
+                android:text="@string/main_small_btn" />
+
+            <Button
+                android:id="@+id/main_large_btn"
+                style="@style/main_size_button"
+                android:layout_below="@id/main_color_radiogroup"
+                android:layout_toRightOf="@id/main_small_btn"
+                android:text="@string/main_large_btn" />
+
+            <Button
+                android:id="@+id/main_xlarge_btn"
+                style="@style/main_size_button"
+                android:layout_below="@id/main_color_radiogroup"
+                android:layout_toRightOf="@id/main_large_btn"
+                android:text="@string/main_xlarge_btn" />
+
+            <TextView
+                android:id="@+id/main_description_title"
+                style="@style/main_header_title"
+                android:layout_alignStart="@id/main_bicycle_title"
+                android:layout_below="@id/main_medium_btn"
+                android:text="@string/main_description_title" />
+            <TextView
+                android:id="@+id/main_description_text"
+                style="@style/main_text"
+                android:layout_below="@id/main_description_title"
+                android:layout_alignStart="@id/main_bicycle_title"
+                android:text="@string/main_description_text" />
+            <TextView
+                android:id="@+id/main_measurments_title"
+                style="@style/main_header_title"
+                android:layout_alignStart="@id/main_bicycle_title"
+                android:layout_below="@id/main_description_text"
+                android:text="@string/main_measurements_title" />
+            <TextView
+                android:id="@+id/main_measurments_text"
+                style="@style/main_text"
+                android:layout_below="@id/main_measurments_title"
+                android:layout_alignStart="@id/main_bicycle_title"
+                android:text="@string/main_measurements_text"
+                />
+            <Button
+                android:id="@+id/main_addtocart_btn"
+                style="@style/main_addtocart_button"
+                android:text="@string/main_addtocart_btn"
+                android:layout_below="@id/main_measurments_text"
+                android:layout_alignStart="@id/main_bicycle_title"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ExamTest</string>
+    <string name="main_undo_snackBar_btn">Deshacer</string>
+    <string name="main_addlike_toast">+1 Bicicleta Vintage</string>
+    <string name="main_addtocart_btn">Agregar al carrito</string>
+    <string name="main_addtocart_btn_selected">Agregado al carrito</string>
+    <string name="main_addtocart_btn_selected_toast">El articulo ya esta en el carrito</string>
+    <string name="main_bicycle_title">Bicicleta Vintage</string>
+    <string name="main_color_radiogroup_title">Color</string>
+    <string name="main_medium_btn">M</string>
+    <string name="main_small_btn">C</string>
+    <string name="main_large_btn">G</string>
+    <string name="main_xlarge_btn">XG</string>
+    <string name="main_description_title">Descripción</string>
+    <string name="main_description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="main_measurements_title">Mediciones</string>
+    <string name="main_measurements_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+</resources>
