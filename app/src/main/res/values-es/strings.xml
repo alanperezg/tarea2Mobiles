@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExamTest</string>
+    <string name="app_name">ExamenTest</string>
     <string name="main_undo_snackBar_btn">Deshacer</string>
     <string name="main_addlike_toast">+1 Bicicleta Vintage</string>
     <string name="main_addtocart_btn">Agregar al carrito</string>
